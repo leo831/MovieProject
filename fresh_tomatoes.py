@@ -52,8 +52,23 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
-        }        
-      
+        }
+        .jumbotron .container {
+            max-width: 100%;
+            text-align: center;
+        }
+        .jumbotron {
+            padding: 30px;
+            margin-bottom: 30px;
+            margin-top: -30px;
+            color: inherit;
+            background-color: #eee;
+        }
+        footer{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            background: #eee;
+            }      
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
