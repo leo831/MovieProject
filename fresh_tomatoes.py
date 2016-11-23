@@ -118,7 +118,12 @@ main_page_content = '''
     </div>
     <div class="container">
       {movie_tiles}
-    </div>    
+    </div>
+    <footer class="footer text-muted">
+      <div class="container">
+        <span class="text-muted">Copyright by Lara.</span>
+      </div>
+    </footer>
   </body>
 </html>
 '''
